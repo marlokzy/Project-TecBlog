@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(240, 218, 16);
+    width: 100%;
+    height: 160px;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+
+header #navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+}
+
+header #navbar a:hover {
+    background-color: #fff;
+    color: rgb(240, 218, 16);
+    border-radius: 50px;
+}
+
+header .logo span {
+    color: rgba(0, 0, 0, 0.776);
+}
+
+header .logo {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 18px 0px;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+#navbar {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #eee;
+}
+
+#all-content {
+    width: 920px;
+    margin: 0 auto;
+    padding-top: 13px;
+}
+
+#postagens {
+    width: 660px;
+    float: left;
+}
+
+#lateral {
+    width: 240px;
+    float: right;
+
+}
+
+img {
+    width: 620px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+footer {
+    clear: both;
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.post-cate {
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 15px;
+}
+.post-cate a:nth-child(5){
+    padding-bottom: 0px;
+}
+
+.post-cate a:nth-child(2){
+    padding-top: 5px;
+}
+
+
+.post-cate a {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.post-recen {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.post-recen h3, .post-cate h3 {
+    padding-bottom: 5px;
+}
+
+.links {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(240, 218, 16);
+}
+
+.links:hover {
+    color: rgb(182, 165, 13);
+}
+
+.post-cate .links:hover {
+    background-color: #eee;
+    padding: 10px;
+}
+
+#postagens h2 {
+    color: rgb(240, 218, 16);
+    padding-bottom: 5px;
+}
+
+#postagens p:nth-child(2) {
+    padding-bottom: 10px;
+}
+
+#postagens p:nth-child(4) {
+    padding-top: 10px;
+}
