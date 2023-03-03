@@ -23,7 +23,8 @@ header #navbar a {
 header #navbar a:hover {
     background-color: #fff;
     color: rgb(240, 218, 16);
-    border-radius: 50px;
+    border-radius: 20px;
+    transition: 1s;
 }
 
 header .logo span {
@@ -36,7 +37,6 @@ header .logo {
     padding: 18px 0px;
     cursor: pointer;
     width: 100%;
-
 }
 
 #navbar {
@@ -62,7 +62,6 @@ body {
 #lateral {
     width: 240px;
     float: right;
-
 }
 
 img {
@@ -73,7 +72,6 @@ img {
     background-color: #fff;
     padding: 20px;
     margin-bottom: 15px;
-
 }
 
 footer {
@@ -89,14 +87,18 @@ footer {
     margin-top: 10px;
     padding: 15px;
 }
-.post-cate a:nth-child(5){
+
+.post-cate a:hover {
+    transition: 0.5s;
+}
+
+.post-cate a:nth-child(5) {
     padding-bottom: 0px;
 }
 
-.post-cate a:nth-child(2){
+.post-cate a:nth-child(2) {
     padding-top: 5px;
 }
-
 
 .post-cate a {
     display: block;
@@ -108,7 +110,8 @@ footer {
     padding: 15px;
 }
 
-.post-recen h3, .post-cate h3 {
+.post-recen h3,
+.post-cate h3 {
     padding-bottom: 5px;
 }
 
